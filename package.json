@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "stylua --check .",
+    "format": "stylua .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@johnnymorganz/stylua-bin": "^0.20.0",
+    "husky": "^9.0.11"
+  }
+}
